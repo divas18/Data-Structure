@@ -195,7 +195,6 @@ public:
         head = prev;
         cout << " Task completed\n";
     }
-    friend singlyLinkedList concatenate(singlyLinkedList list);
 };
 
 int main()
