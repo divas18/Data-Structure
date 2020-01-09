@@ -12,13 +12,13 @@ using namespace std;
 struct node
 {
     int data;
-    struct node * next;
+    node * next;
 };
 
 class singlyLinkedList
 {
 private:
-    struct node * head, *tail;
+    node * head, *tail;
 public:
     singlyLinkedList()
     {
@@ -26,7 +26,7 @@ public:
         tail = NULL;
     }
     ~singlyLinkedList(){
-            struct node *temp, *ptr;
+            node *temp, *ptr;
             ptr = head;
             while(ptr)
             {
@@ -37,7 +37,7 @@ public:
     }
     void create_node(int info)
     {
-        struct node *temp = new struct node[1];
+        node *temp = new node;
         temp->data = info;
         temp->next = NULL;
         if(head == NULL)
@@ -55,7 +55,7 @@ public:
     }
     void insert_at_beg(int info)
     {
-        struct node *temp = new struct node[1];
+        node *temp = new node;
         temp->data = info;
         temp->next = head;
         head = temp;
@@ -66,18 +66,18 @@ public:
     }
     void insert_before(int info, int info2) // info2 before which we want to insert node
     {
-        struct node *temp, *ptr;
+        node *temp, *ptr;
         ptr = head;
         if(head->data == info2)
         {
             insert_at_beg(info);
             return;
         }
-        while(ptr)/* code */
+        while(ptr)
         {
             if(ptr->next && ptr->next->data == info2)
             {
-                temp = new struct node[1];
+                temp = new node;
                 temp->data = info;
                 temp->next = ptr->next;
                 ptr->next = temp;
@@ -89,13 +89,13 @@ public:
     }
     void insert_after(int info, int info2)
     {
-        struct node *temp, *ptr;
+        node *temp, *ptr;
         ptr = head;
         while(ptr)
         {
             if(ptr->data == info2)
             {
-                temp = new struct node[1];
+                temp = new node;
                 temp->data = info;
                 temp->next = ptr->next;
                 ptr->next = temp;
@@ -116,7 +116,7 @@ public:
             cout << " List is empty\n";
             return;
         }
-        struct node *ptr = head;
+        node *ptr = head;
         while(ptr)
         {
             cout << ptr->data <<" ";
@@ -138,7 +138,7 @@ public:
             tail = NULL;
             return;
         }
-        struct node * temp, *ptr, *p;
+        node * temp, *ptr, *p;
         //deletion of first node
         if(head->data == info)
         {
@@ -171,7 +171,7 @@ public:
     {
         recursive_display(head);
     }
-    void recursive_display(struct node *Node)
+    void recursive_display(node *Node)
     {
         if(Node)
         {
@@ -181,7 +181,7 @@ public:
     }
     void reverse()
     {
-        struct node *prev, *next, *ptr;
+        node *prev, *next, *ptr;
         ptr = head;
         prev = NULL;
         tail = head;
