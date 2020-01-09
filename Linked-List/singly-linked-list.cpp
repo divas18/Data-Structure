@@ -1,10 +1,8 @@
 /**
- * @Author: Aditya Kumar Singh <martian>
- * @Date:   2020-01-07T16:21:20+05:30
+ * @Author: Aditya Kumar Singh
  * @Email:  cr7.aditya.cs@gmail.com
  * @Filename: singly-linked-list.cpp
- * @Last modified by:   martian
- * @Last modified time: 2020-01-09T22:14:29+05:30
+ * @Last modified by:   Aditya Kumar Singh
  */
 
 #include <iostream>
