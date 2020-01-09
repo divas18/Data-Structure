@@ -4,16 +4,9 @@
  * @Email:  cr7.aditya.cs@gmail.com
  * @Filename: singly-linked-list.cpp
  * @Last modified by:   martian
- * @Last modified time: 2020-01-07T22:27:10+05:30
+ * @Last modified time: 2020-01-09T22:14:29+05:30
  */
 
-/*
-Topic Remaining
-
-concatenation
-Merging
-Insertion sort
- */
 #include <iostream>
 #include <new>
 using namespace std;
@@ -202,25 +195,15 @@ public:
             ptr = next;
         }
         head = prev;
+        cout << " Task completed\n";
     }
-    singlyLinkedList concatenate(singlyLinkedList list)
-    {
-        singlyLinkedList temp;
-        temp.head = head;
-        temp.tail = tail;
-        temp.tail->next = list.head;
-        temp.tail = list.tail;
-        return temp;
-    }
+    friend singlyLinkedList concatenate(singlyLinkedList list);
 };
 
 int main()
 {
-    int n;
-    cout << " How many list you want : ";
-    cin >> n;
-    singlyLinkedList list[n+1];
-    int option, info, temp,i;
+    singlyLinkedList list;
+    int option, info, temp;
     while(1)
     {
         cout << "\n";
@@ -233,63 +216,54 @@ int main()
         cout << " 6.\tRecursive display\n";
         cout << " 7.\tDelete\n";
         cout << " 8.\tReverse\n";
-        cout << " 9.\tConcatinate\n";
         cout << "\v Enter your choice : ";
         cin >> option;
-        cout << " Enter the list number you want to operate : ";
-        cin >> i;
         switch(option)
         {
             case 0:
-                //exit(0);
-                goto ab;
+                exit(0);
             case 1:
                 cout << " Enter the element to insert : ";
                 cin >> info;
-                list[i].insert_at_beg(info);
+                list.insert_at_beg(info);
                 break;
             case 2:
                 cout << " Enter the element to insert : ";
                 cin >> info;
-                list[i].create_node(info);
+                list.create_node(info);
                 break;
             case 3:
                 cout << " Enter the element to insert : ";
                 cin >> info;
                 cout << " Enter the element before which you want to insert : ";
                 cin >> temp;
-                list[i].insert_before(info, temp);
+                list.insert_before(info, temp);
                 break;
             case 4:
                 cout << " Enter the element to insert : ";
                 cin >> info;
                 cout << " Enter the element after which you want to insert : ";
                 cin >> temp;
-                list[i].insert_after(info, temp);
+                list.insert_after(info, temp);
                 break;
             case 5:
-                cout << " List " << i <<"\n :";
-                list[i].display();
+                cout << " List\n : ";
+                list.display();
+                cout << "\n";
                 break;
             case 6:
-                cout << " List " << i <<"\n :";
-                list[i].display_rec();
+                cout << " List in reverse\n : ";
+                list.display_rec();
+                cout << "\n";
                 break;
             case 7:
                 cout << " Enter the element to delete : ";
                 cin >> info;
-                list[i].Delete(info);
-            case 8:
-                list[i].reverse();
+                list.Delete(info);
                 break;
-            case 9:
-                cout << " Enter the list which you want to concatenate : ";
-                cin >> temp;
-                list[1].concatenate(list[temp]);
+            case 8:
+                list.reverse();
                 break;
         }
     }
-    ab:;
-    singlyLinkedList a = list[0].concatenate(list[1]);
-    a.display();
 }

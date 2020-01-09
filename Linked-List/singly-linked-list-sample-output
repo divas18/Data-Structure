@@ -1,0 +1,125 @@
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 1
+ Enter the element to insert : 50
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 2
+ Enter the element to insert : 100
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 3
+ Enter the element to insert : 40
+ Enter the element before which you want to insert : 50
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 4
+ Enter the element to insert : 110
+ Enter the element after which you want to insert : 100
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 5
+ List
+ : 40 50 100 110
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 6
+ List in reverse
+ : 110 100 50 40
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 7
+ Enter the element to delete : 70
+ 70 is not present in the list.
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 8
+ Task completed
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 5
+ List
+ : 110 100 50 40
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 0
