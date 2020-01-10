@@ -1,0 +1,183 @@
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 1
+ Element to push : 10
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 1
+ Element to push : 20
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 1
+ Element to push : 30
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 1
+ Element to push : 40
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 1
+ Element to push : 50
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 5
+ Stack:
+ 50
+ 40
+ 30
+ 20
+ 10
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 3
+ stack is not empty
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 4
+ Top element : 50
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 2
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 2
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 4
+ Top element : 30
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 3
+ stack is not empty
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 5
+ Stack:
+ 30
+ 20
+ 10
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 2
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 5
+ Stack:
+ 20
+ 10
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 4
+ Top element : 20
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 2
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 2
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 2
+ Stack is empty
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Top element
+ 5.	Display
+ Enter your option : 0
