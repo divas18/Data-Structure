@@ -1,0 +1,203 @@
+ Enter the size of stack : 5
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 1
+ Element to push : 10
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 1
+ Element to push : 20
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 1
+ Element to push : 30
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 1
+ Element to push : 40
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 1
+ Element to push : 50
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 6
+ stack :
+ 50
+ 40
+ 30
+ 20
+ 10
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 3
+ stack is not empty
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 4
+ stack is full
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 5
+ Index : 4
+ 50 is at 4
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 2
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 2
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 2
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 6
+ stack :
+ 20
+ 10
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 2
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 2
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 6
+ stack is empty.
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 2
+ stack is empty.
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 3
+ stack is empty
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 4
+ stack is not full
+
+ 0.	Exit
+ 1.	Push
+ 2.	Pop
+ 3.	Is empty
+ 4.	Is full
+ 5.	Peek
+ 6.	Display
+ Enter your option : 0
