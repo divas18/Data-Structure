@@ -1,0 +1,172 @@
+ Enter the size of queue : 5
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 1
+ Enter the element to enqueue : 10
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 1
+ Enter the element to enqueue : 11
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 1
+ Enter the element to enqueue : 12
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 5
+ Queue
+ : 10 11 12
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 3
+ Queue is not full
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 4
+ Queue is not empty.
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 2
+ 10 is dequeued
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 5
+ Queue
+ : 11 12
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 2
+ 11 is dequeued
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 5
+ Queue
+ : 12
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 2
+ 12 is dequeued
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 3
+ Queue is not full
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 4
+ Queue is empty.
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 2
+ queue is empty
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 1
+ Enter the element to enqueue : 11
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 1
+ Enter the element to enqueue : 12
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 1
+ Enter the element to enqueue : 13
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 1
+ Enter the element to enqueue : 14
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 1
+ Enter the element to enqueue : 15
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 1
+ Enter the element to enqueue : 16
+ Queue is full.
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	isFull
+ 4.	isEmpty
+ 5.	Display
+ Enter your choice : 0
