@@ -1,0 +1,217 @@
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 1
+ Enter the element to insert : 10
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 1
+ Enter the element to insert : 20
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 1
+ Enter the element to insert : 30
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 4
+ List
+ : 10 20 30
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 6
+ Done
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 4
+ List
+ : 30 20 10
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 2
+ Enter the element to insert : 40
+ Enter the element before which you want to insert : 20
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 4
+ List
+ : 30 40 20 10
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 3
+ Enter the element to insert : 60
+ Enter the element after which you want to insert : 20
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 4
+ List
+ : 30 40 20 60 10
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 5
+ Enter the element to delete : 30
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 5
+ Enter the element to delete : 10
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 4
+ List
+ : 40 20 60
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 5
+ Enter the element to delete : 100
+ 100 is not present in the list.
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 6
+ Done
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 4
+ List
+ : 60 20 40
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 5
+ Enter the element to delete : 60
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 5
+ Enter the element to delete : 40
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 4
+ List
+ : 20
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 6
+
+ 0.	Exit
+ 1.	Insert
+ 2.	Insert before
+ 3.	Insert after
+ 4.	Display
+ 5.	Delete
+ 6.	Reverse
+ Enter your choice : 0
