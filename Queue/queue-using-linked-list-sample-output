@@ -1,0 +1,126 @@
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 1
+ Element to insert : 10
+ Task completed.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 1
+ Element to insert : 20
+ Task completed.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 4
+ Queue
+ : 10 20
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 1
+ Element to insert : 30
+ Task completed.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 4
+ Queue
+ : 10 20 30
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 2
+ Task completed.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 4
+ Queue
+ : 20 30
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 2
+ Task completed.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 4
+ Queue
+ : 30
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 2
+ Task completed.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 4
+ Queue is empty.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 3
+ Queue is empty.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 1
+ Element to insert : 10
+ Task completed.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 3
+ Queue is not empty.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Isempty
+ 4.	Display
+ Enter your option : 0
