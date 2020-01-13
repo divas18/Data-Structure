@@ -2,7 +2,7 @@
  * @Author: Aditya Kumar Singh
  * @Email:  cr7.aditya.cs@gmail.com
  * @Filename: doubly-linked-list.cpp
- * @Last modified by:   Aditya Kumar Singh
+ * @Last modified by:   martian
  */
 
 #include <iostream>
@@ -36,82 +36,76 @@ public:
                 delete temp;
             }
     }
-    void create_node(int info)
-    {
-        node *temp = new node;
-        temp->data = info;
-        temp->prev = NULL;
-        temp->next = NULL;
-    }
     void insert_at_beg(int info)
     {
         node *temp = new node;
         temp->data = info;
         temp->prev = NULL;
-        temp->next = head;
-        head = temp;
-        if(tail == NULL)
+        if(head == NULL)
         {
+            temp->next = NULL;
             tail = temp;
+            head = temp;
+
+            return;
         }
+        temp->next = head;
+        head->prev = temp;
+        head = temp;
+        
     }
     void insert_at_end(int info)
     {
-        node *temp, *ptr;
         if(head == NULL)
         {
             insert_at_beg(info);
             return;
         }
-        ptr = head;
-        while(ptr->next)
-        {
-            ptr = ptr->next;
-        }
-        temp = new node;
-        temp->data = info;
-        temp->prev = ptr;
-        ptr->next = temp;
+        node *temp = new node;
+        temp->data =  info;
+        temp->prev = tail;
+        tail->next = temp;
         temp->next = NULL;
         tail = temp;
+
     }
-    void insert_before(int info, int info2) // info2 before which we want to insert node
+    void insert_before(int info, int info2)
     {
+        node *ptr = head, *temp;
         if(head->data == info2)
         {
             insert_at_beg(info);
             return;
         }
-        node *temp, *ptr = head->next;
         while(ptr)
         {
             if(ptr->data == info2)
             {
                 temp = new node;
-                temp->prev = ptr->prev;
-                ptr->prev->next = temp;
                 temp->data = info;
+                ptr->prev->next = temp;
+                temp->prev = ptr->prev;
                 temp->next = ptr;
                 ptr->prev = temp;
+
                 return;
             }
             ptr = ptr->next;
         }
-        cout << " " << info2 << " is not present in the list\n";
+        cout << " " << info2 << " is not present in the list.\n";
     }
     void insert_after(int info, int info2)
     {
-        node *temp, *ptr;
-        ptr = head;
+        node *temp, *ptr = head;
         while(ptr)
         {
             if(ptr->data == info2)
             {
                 temp = new node;
-                temp->prev = ptr;
                 temp->data = info;
+                temp->prev = ptr;
                 temp->next = ptr->next;
-                if(ptr->next) //when temp is not going to be last node
+                if(ptr->next)
                 {
                     ptr->next->prev = temp;
                 }
@@ -120,101 +114,99 @@ public:
                     tail = temp;
                 }
                 ptr->next = temp;
+
                 return;
             }
             ptr = ptr->next;
         }
-        cout << " " << info2 << " is not present in the list.\n";
+        cout << " " << info2 << " is not present in list.\n";
     }
     void display()
     {
-        if(head == NULL)
-        {
-            cout << " List is empty\n";
-            return;
-        }
         node *ptr = head;
         while(ptr)
         {
-            cout << ptr->data <<" ";
+            cout <<  ptr->data << " ";
             ptr = ptr->next;
         }
-    }
-    void Delete(int info)
-    {
-        if(!head)
-        {
-            cout << " List is empty.\n";
-            return;
-        }
-        //deletion of only node
-        if(head == tail)
-        {
-            head = NULL;
-            delete tail;
-            tail = NULL;
-            return;
-        }
-        node * temp, *ptr;
-        //deletion of first node
-        if(head->data == info)
-        {
-            temp = head;
-            head = head->next;
-            head->prev = NULL;
-            delete temp;
-            return;
-        }
-        //deletion in middle and end
-        ptr = head;
-        while(ptr)
-        {
-            if(ptr->data == info)
-            {
-                temp = ptr;
-                ptr->prev->next = ptr->next;
-                if(ptr->next) //when not deleting tail
-                {
-                    ptr->next->prev = ptr->prev;
-                }
-                else
-                {
-                    tail = ptr->prev;
-                }
-                delete temp;
-                return;
-            }
-            ptr = ptr->next;
-        }
-        cout << " " << info << " is not present in the list.\n";
     }
     void display_rec()
     {
         recursive_display(head);
     }
-    void recursive_display(node *Node)
+    void recursive_display(node *ptr)
     {
-        if(Node)
+        if(ptr)
         {
-            recursive_display(Node->next);
-            cout << Node->data << " ";
+            recursive_display(ptr->next);
+            cout << " " << ptr->data;
         }
+    }
+    void Delete(int info)
+    {
+        if(head==NULL)
+        {
+            cout << " List is empty.\n";
+            return;
+        }
+        if(head->data == info && head->next == NULL)//deletion of only node
+        {
+            free(head);
+            head = NULL;
+            tail = NULL;
+
+            return;
+        }
+        node *ptr;
+        if(head->data == info)//deletion of first node
+        {
+            ptr = head;
+            head = head->next;
+            head->prev = NULL;
+            delete ptr;
+
+            return;
+        }
+        ptr = head;
+        while(ptr->next)
+        {
+            if(ptr->data == info)
+            {
+                ptr->prev->next = ptr->next;
+                ptr->next->prev = ptr->prev;
+                delete ptr;
+
+                return;
+            }
+            ptr = ptr->next;
+        }
+        if(ptr->data == info)
+        {
+            ptr->prev->next = NULL;
+            tail = ptr->prev;
+            delete ptr;
+
+            return;
+        }
+        cout << " " << info << " is not present in List.\n";
     }
     void reverse()
     {
-        node *prev, *next, *ptr;
-        ptr = head;
-        prev = NULL;
+        node *p , *q;
+        p = head;
         tail = head;
-        while(ptr)
+        while(p)
         {
-            next = ptr->next;
-            ptr->next = prev;
-            prev = ptr;
-            ptr = next;
+            if(p->next == NULL)
+            {
+                head = p;
+            }
+            q = p->next;
+            p->next = p->prev;
+            p->prev = q;
+            p = q;
         }
-        head = prev;
-        cout << " Task completed\n";
+
     }
 };
 
@@ -270,7 +262,7 @@ int main()
                 cout << "\n";
                 break;
             case 6:
-                cout << " List in reverse\n : ";
+                cout << " List in reverse\n :";
                 list.display_rec();
                 cout << "\n";
                 break;

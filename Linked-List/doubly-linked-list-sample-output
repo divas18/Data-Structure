@@ -1,0 +1,250 @@
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 1
+ Enter the element to insert : 10
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 1
+ Enter the element to insert : 20
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 5
+ List
+ : 20 10
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 2
+ Enter the element to insert : 30
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 5
+ List
+ : 20 10 30
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 3
+ Enter the element to insert : 40
+ Enter the element before which you want to insert : 30
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 5
+ List
+ : 20 10 40 30
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 4
+ Enter the element to insert : 60
+ Enter the element after which you want to insert : 30
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 5
+ List
+ : 20 10 40 30 60
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 6
+ List in reverse
+ : 60 30 40 10 20
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 8
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 6 5
+ List
+ : 60 30 40 10 20
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 6
+ List in reverse
+ : 20 10 40 30 60
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 7
+ Enter the element to delete : 20
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 5
+ List
+ : 60 30 40 10
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 7
+ Enter the element to delete : 10
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 5
+ List
+ : 60 30 40
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 7
+ Enter the element to delete : 30
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 5
+ List
+ : 60 40
+
+ 0.	Exit
+ 1.	Insert at the begining
+ 2.	Insert at the end
+ 3.	Insert before
+ 4.	Insert after
+ 5.	Display
+ 6.	Recursive display
+ 7.	Delete
+ 8.	Reverse
+ Enter your choice : 0
