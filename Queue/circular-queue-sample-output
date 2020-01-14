@@ -1,0 +1,233 @@
+ Size of queue : 5
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 1
+ Data to enqeue: 10
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 1
+ Data to enqeue: 20
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 1
+ Data to enqeue: 30
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 3
+ Queue
+ : 10 20 30
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 1
+ Data to enqeue: 40
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 1
+ Data to enqeue: 50
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 3
+ Queue
+ : 10 20 30 40 50
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 2
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 4
+ Queue is not full.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 5
+ Queue is not empty.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 1
+ Data to enqeue: 60
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 3
+ Queue
+ : 20 30 40 50 60
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 2
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 2
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 2
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 2
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 6
+ 
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 5
+ Queue is not empty.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 4
+ Queue is not full.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 3
+ Queue
+ : 60
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 2
+ Task completed
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 3
+ Queue is empty.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 4
+ Queue is not full.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 5
+ Queue is empty.
+
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequeue
+ 3.	Display
+ 4.	isFull
+ 5.	isEmpty
+ your option : 0
