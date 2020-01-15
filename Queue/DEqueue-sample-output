@@ -1,0 +1,241 @@
+ Queue size : 5
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 1
+ data to insert : 10
+ Task completed
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 1
+ data to insert : 20
+ Task completed
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 3
+ Queue
+ :  20 10
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 2
+ data to insert : 30
+ Task completed
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 2
+ data to insert : 40
+ Task completed
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 3
+ Queue
+ :  20 10 30 40
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 1
+ data to insert : 50
+ Task completed
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 3
+ Queue
+ :  50 20 10 30 40
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 6
+ Queue is full.
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 7
+ Queue is not empty
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 4
+ 50 dequeued
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 3
+ Queue
+ :  20 10 30 40
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 4
+ 20 dequeued
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 3
+ Queue
+ :  10 30 40
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 5
+ 40 dequeued
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 5
+ 30 dequeued
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 3
+ Queue
+ :  10
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 5
+ 10 dequeued
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 6
+ Queue is not full.
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 7
+ Queue is empty.
+
+ 0.	Exit
+ 1.	Add at front
+ 2.	Add at rare
+ 3.	display
+ 4.	Delete from front
+ 5.	Delete from rare
+ 6.	is Full
+ 7.	is Empty
+ your option : 0
