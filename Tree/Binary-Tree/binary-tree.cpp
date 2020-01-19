@@ -6,7 +6,7 @@
  */
 
 #include <iostream>
-#include "List.h"
+#include "../Helper/List.h"
 #include <stack>
 #include <queue>
 #include <new>
@@ -39,13 +39,13 @@ public:
     void postorder();
     void levelorder();
     void in_pre_to_tree(ListNode *in, ListNode *pre, int n);
-    void in_post_to_tree(ListNode *in, ListNode *post, int n);//error
+    void in_post_to_tree(ListNode *in, ListNode *post, int n);
 };
 
 int main()
 {
     binaryTree b;
-    int key, option, n, temp; //in for inorder, po for postorder, preorder
+    int key, option, n, temp;
     List inorder, postorder, preorder;
     cout << " Lets create Binary Tree\n";
     cout << " 1.\tUsing insertion (BST will be created)\n";
