@@ -36,7 +36,7 @@ public:
             return;
         }
         else if(front->priority < pri)
-        {ority
+        {
             temp->next = front;
             front =temp;
             return;
