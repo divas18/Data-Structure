@@ -1,0 +1,94 @@
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 1
+ Data to insert : 10
+ priority : 5
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 1
+ Data to insert : 11
+ priority : 5
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 1
+ Data to insert : 15
+ priority : 4
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 1
+ Data to insert : 16
+ priority : 4
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 1
+ Data to insert : 20
+ priority : 3
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 1
+ Data to insert : 19
+ priority : 3
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 3
+ Queue :
+ priority : 5	Data : 10
+ priority : 5	Data : 11
+ priority : 4	Data : 15
+ priority : 4	Data : 16
+ priority : 3	Data : 20
+ priority : 3	Data : 19
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 2
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 3
+ Queue :
+ priority : 5	Data : 11
+ priority : 4	Data : 15
+ priority : 4	Data : 16
+ priority : 3	Data : 20
+ priority : 3	Data : 19
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 1
+ Data to insert : 90
+ priority : 9
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 3
+ Queue :
+ priority : 9	Data : 90
+ priority : 5	Data : 11
+ priority : 4	Data : 15
+ priority : 4	Data : 16
+ priority : 3	Data : 20
+ priority : 3	Data : 19
+ 0.	Exit
+ 1.	Enqueue
+ 2.	Dequque
+ 3.	Display
+ Option : 0
