@@ -24,10 +24,11 @@ private:
     void preorder(Node *ptr);
     void postorder(Node *ptr);
     void insert(Node *ptr, int key);
-    bool search(Node *ptr, int key);
+    Node * search(Node *ptr, int key);
 	int height(Node *ptr);
 	Node *minNode(Node *ptr);
 	Node *maxNode(Node *ptr);
+	void successorAndPredecessor(Node *ptr, Node *&suc, Node *&pre, int key);
 public:
     Binary();
     void inorder();
@@ -38,10 +39,12 @@ public:
 	void inorderNonRecursive();
 	void postorderNonRecursive();
     void insert(int key);
-    bool search(int key);
+    Node * search(int key);
 	int height();
 	Node *minNode();
 	Node *maxNode();
+	int successor(int key);
+	int predecessor(int key);
 };
 
 int main()
@@ -57,9 +60,9 @@ int main()
         cin >> n;
     }
 	cout << " Height : " << bst.height() << "\n";
-	bst.inorderNonRecursive();
+	//bst.inorderNonRecursive();
     bst.inorder();
-	bst.preorderNonRecursive();
+	//bst.preorderNonRecursive();
     bst.preorder();
     bst.postorder();
 	bst.levelorder();
@@ -72,6 +75,15 @@ int main()
 	ptr = bst.maxNode();
 	if(ptr)
 		cout << " Max Node : " << ptr << "\n Max data : " << ptr->data << "\n";
+
+	cout << " successor and predecessor of n : ";
+	cin >> n;
+	while(n)
+	{
+		cout << bst.successor(n) << " " << bst.predecessor(n) << "\n";
+		cout << " : ";
+		cin >> n;
+	}
 }
 
 Binary :: Binary()
@@ -141,17 +153,32 @@ void Binary :: inorderNonRecursive()
 	stack<Node *> st;
 	Node *ptr = root_;
 
-	while(ptr || !st.empty())
+	while(ptr)
 	{
 		while(ptr)
 		{
+			if(ptr->right)
+				st.push(ptr->right);
 			st.push(ptr);
 			ptr = ptr->left;
 		}
 		ptr = st.top();
 		st.pop();
+		while(!st.empty() && ptr->right == NULL)
+		{
+			cout << " " << ptr->data;
+			ptr = st.top();
+			st.pop();
+		}
+
 		cout << " " << ptr->data;
-		ptr = ptr->right;
+		if(st.empty())
+			ptr = NULL;
+		else
+		{
+			ptr = st.top();
+			st.pop();
+		}
 	}
 	cout << "\n";
 }
@@ -252,35 +279,25 @@ void Binary :: levelorder()
 }
 
 
-bool Binary :: search(int key)
+Node * Binary :: search(int key)
 {
     return search(root_, key);
 }
 
-bool Binary :: search(Node *ptr, int key)
+Node * Binary :: search(Node *ptr, int key)
 {
     if(!ptr)
-        return false;
+        return NULL;
     if(key < ptr->data)
         return search(ptr->left, key);
     if(key > ptr->data)
         return search(ptr->right, key);
-    return true;
+    return ptr;
 }
 
 int Binary :: height()
 {
 	return height(root_);
-}
-
-Node * Binary :: minNode()
-{
-	return minNode(root_);
-}
-
-Node * Binary :: maxNode()
-{
-	return maxNode(root_);
 }
 
 int Binary :: height(Node *ptr)
@@ -291,8 +308,13 @@ int Binary :: height(Node *ptr)
 	int h2 = height(ptr->right);
 
 	if(h1 < h2)
-		return 1 + h2;
+	return 1 + h2;
 	return 1 + h1;
+}
+
+Node * Binary :: minNode()
+{
+	return minNode(root_);
 }
 
 Node * Binary :: minNode(Node *ptr)
@@ -302,9 +324,55 @@ Node * Binary :: minNode(Node *ptr)
 	return ptr;
 }
 
+Node * Binary :: maxNode()
+{
+	return maxNode(root_);
+}
+
 Node * Binary :: maxNode(Node *ptr)
 {
 	if(ptr->right)
 		return maxNode(ptr->right);
 	return ptr;
+}
+
+int Binary :: successor(int key)
+{
+	Node *succ, *pre;
+	successorAndPredecessor(root_, succ, pre, key);
+	return succ ? succ->data : -1;
+}
+int Binary :: predecessor(int key)
+{
+	Node *succ, *pre;
+	successorAndPredecessor(root_, succ, pre, key);
+	return pre ? pre->data : -1;
+}
+
+void Binary :: successorAndPredecessor(Node *ptr, Node *&suc, Node *&pre, int key)
+{
+	if(!ptr)
+		return;
+
+	if(ptr->data == key)
+	{
+		//Smallest
+		if(ptr->right)
+			suc = minNode(ptr->right);
+
+		if(ptr->left)
+			pre = maxNode(ptr->left);
+		return;
+	}
+
+	if(ptr->data > key)
+	{
+		suc = ptr;
+		successorAndPredecessor(ptr->left, suc, pre, key);
+	}
+	else
+	{
+		pre = ptr;
+		successorAndPredecessor(ptr->right, suc, pre, key);
+	}
 }
