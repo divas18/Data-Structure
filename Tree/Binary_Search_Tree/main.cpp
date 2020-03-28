@@ -15,6 +15,7 @@ int main()
     bst.inorder();
     bst.preorder();
     bst.postorder();
+    bst.levelorder();
     cout << bst.height() << "\n";
     cout << bst.minNode()->data << "\n";
     cout << bst.maxNode()->data << "\n";

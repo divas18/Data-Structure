@@ -31,6 +31,7 @@ private:
 	Node *	minNode(Node *ptr);
 	Node *	maxNode(Node *ptr);
 	Node * search(Node *ptr, int key);
+	void 	successor(Node *ptr, Node *&succ, int key);
 
 public:
 	BinarySearchTree()
@@ -41,6 +42,7 @@ public:
 	void 	inorder();
 	void 	preorder();
 	void 	postorder();
+	void 	levelorder();
 	int 	height();
 	Node *	minNode();
 	Node *	maxNode();

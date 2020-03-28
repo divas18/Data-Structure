@@ -78,3 +78,32 @@ void BinarySearchTree :: postorder(Node *ptr)
 		cout << " " << ptr->data;
 	}
 }
+
+/******************************************************************************
+*                              LEVELORDER TRAVERSAL                           *
+******************************************************************************/
+
+void BinarySearchTree :: levelorder()
+{
+	if(!root_)
+	{
+		cout << " Tree is empty\n";
+		return;
+	}
+
+	cout << "\n ---Levelorder---\n :";
+	queue<Node *> qu;
+	qu.push(root_);
+	Node * ptr;
+	while(!qu.empty())
+	{
+		ptr = qu.front();
+		qu.pop();
+		cout << " " << ptr->data;
+		if(ptr->left)
+			qu.push(ptr->left);
+		if(ptr->right)
+			qu.push(ptr->right);
+	}
+	cout  << "\n";
+}
