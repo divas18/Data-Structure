@@ -28,10 +28,12 @@ private:
 	void 	postorder(Node *ptr);
 	void 	insert(Node *ptr, int key);
 	int 	height(Node *ptr);
+	int 	width(Node *ptr);
 	Node *	minNode(Node *ptr);
 	Node *	maxNode(Node *ptr);
 	Node * search(Node *ptr, int key);
 	void 	successor(Node *ptr, Node *&succ, int key);
+	void 	predecessor(Node *ptr, Node *&pre, int key);
 
 public:
 	BinarySearchTree()
@@ -44,6 +46,7 @@ public:
 	void 	postorder();
 	void 	levelorder();
 	int 	height();
+	int 	width();
 	Node *	minNode();
 	Node *	maxNode();
 	Node * search(int key);

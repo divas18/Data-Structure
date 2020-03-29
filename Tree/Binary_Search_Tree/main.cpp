@@ -16,8 +16,19 @@ int main()
     bst.preorder();
     bst.postorder();
     bst.levelorder();
-    cout << bst.height() << "\n";
-    cout << bst.minNode()->data << "\n";
-    cout << bst.maxNode()->data << "\n";
-    cout << bst.search(20) << "\n";
+    cout << " Height : " << bst.height() << "\n";
+    cout << " Width : " << bst.width() << "\n";
+    cout << " Min : " << bst.minNode()->data << "\n";
+    cout << " Max : " << bst.maxNode()->data << "\n";
+
+    cout << " n = ";
+    cin >> n;
+    while(n)
+    {
+    cout << " n found at " << bst.search(n) << "\n";
+    cout << " Predecessor : " << bst.predecessor(n) << "\n";
+    cout << " Successor : " << bst.successor(n) << "\n";
+    cout << " n = ";
+    cin >> n;
+}
 }

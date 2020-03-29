@@ -100,6 +100,55 @@ int BinarySearchTree :: height(Node *ptr)
 }
 
 /******************************************************************************
+*                              WIDTH OF TREE                                 *
+******************************************************************************/
+int BinarySearchTree :: width()
+{
+    return width(root_);
+}
+int BinarySearchTree :: width(Node *ptr)
+{
+    if(!ptr)
+        return 0;
+
+    int wid = 0;
+    queue<Node *> qu1, qu2;
+    qu1.push(ptr);
+    while(!qu1.empty() || !qu2.empty())
+    {
+        if(!qu1.empty())
+        {
+            while(!qu1.empty())
+            {
+                ptr = qu1.front();
+                qu1.pop();
+                if(ptr->left)
+                    qu2.push(ptr->left);
+                if(ptr->right)
+                    qu2.push(ptr->right);
+            }
+            if(qu2.size() > wid)
+                wid = qu2.size();
+        }
+        else
+        {
+            while(!qu2.empty())
+            {
+                ptr = qu2.front();
+                qu2.pop();
+                if(ptr->left)
+                    qu1.push(ptr->left);
+                if(ptr->right)
+                    qu1.push(ptr->right);
+            }
+            if(qu1.size() > wid)
+                wid = qu1.size();
+        }
+    }
+    return wid;
+}
+
+/******************************************************************************
 *                              NODE WITH MINIMUM VALUE                        *
 ******************************************************************************/
 
@@ -266,4 +315,66 @@ void BinarySearchTree :: levelorder()
 			qu.push(ptr->right);
 	}
 	cout  << "\n";
+}
+
+/******************************************************************************
+*                              INORDER SUCCESSOR                              *
+******************************************************************************/
+
+int BinarySearchTree :: successor(int key)
+{
+    Node * successor_ptr = NULL;
+    successor(root_, successor_ptr, key);
+    return successor_ptr ? successor_ptr->data : -1;
+}
+
+void BinarySearchTree :: successor(Node *ptr, Node *&succ, int key)
+{
+    if(!ptr)
+        return;
+
+    if(ptr->data == key)
+    {
+        if(ptr->right)
+            succ = minNode(ptr->right);
+    }
+
+    if(ptr->data > key)
+    {
+        succ = ptr;
+        successor(ptr->left, succ, key);
+    }
+    else
+        successor(ptr->right, succ, key);
+}
+
+/******************************************************************************
+*                              INORDER PREDECESSOR                            *
+******************************************************************************/
+
+int BinarySearchTree :: predecessor(int key)
+{
+    Node * predecessor_ptr = NULL;
+    predecessor(root_, predecessor_ptr, key);
+    return predecessor_ptr ? predecessor_ptr->data : -1;
+}
+
+void BinarySearchTree :: predecessor(Node *ptr, Node *&pre, int key)
+{
+    if(!ptr)
+        return;
+
+    if(ptr->data  == key)
+    {
+        if(ptr->left)
+            pre = maxNode(ptr->left);
+    }
+
+    if(ptr->data < key)
+    {
+        pre = ptr;
+        predecessor(ptr->right, pre, key);
+    }
+    else
+        predecessor(ptr->left, pre, key);
 }
