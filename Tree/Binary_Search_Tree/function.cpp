@@ -225,14 +225,49 @@ void BinarySearchTree :: inorder()
     inorder(root_);
     cout << "\n";
 }
-
-void BinarySearchTree :: inorder(Node *ptr)
+                    /*************************
+                    *        RECURSIVE       *
+                    *************************/
+/*void BinarySearchTree :: inorder(Node *ptr)
 {
 	if(ptr)
     {
         inorder(ptr->left);
         cout << " " << ptr->data;
         inorder(ptr->right);
+    }
+}*/
+                    /*************************
+                    *        ITERATIVE       *
+                    *************************/
+void BinarySearchTree :: inorder(Node *ptr)
+{
+    stack<Node *> st;
+    while(ptr)
+    {
+        while(ptr)
+        {
+            if(ptr->right)
+                st.push(ptr->right);
+            st.push(ptr);
+            ptr = ptr->left;
+        }
+        ptr = st.top();
+        st.pop();
+        while(!st.empty() && ptr->right == NULL)
+        {
+            cout << " " << ptr->data;
+            ptr = st.top();
+            st.pop();
+        }
+        cout << " " << ptr->data;
+        if(!st.empty())
+        {
+            ptr = st.top();
+            st.pop();
+        }
+        else
+            ptr = NULL;
     }
 }
 
@@ -251,8 +286,11 @@ void BinarySearchTree :: preorder()
     preorder(root_);
     cout << "\n";
 }
+                        /*************************
+                        *        RECURSIVE       *
+                        *************************/
 
-void BinarySearchTree ::preorder(Node *ptr)
+/*void BinarySearchTree ::preorder(Node *ptr)
 {
 	if(ptr)
     {
@@ -260,8 +298,26 @@ void BinarySearchTree ::preorder(Node *ptr)
         preorder(ptr->left);
         preorder(ptr->right);
     }
-}
+}*/
 
+                        /*************************
+                        *        ITERATIVE       *
+                        *************************/
+void BinarySearchTree :: preorder(Node *ptr)
+{
+    stack<Node *> st;
+    st.push(ptr);
+    while(!st.empty())
+    {
+        ptr = st.top();
+        st.pop();
+        cout << " " << ptr->data;
+        if(ptr->right)
+            st.push(ptr->right);
+        if(ptr->left)
+            st.push(ptr->left);
+    }
+}
 /******************************************************************************
 *                              POSTORDER TRAVERSAL                            *
 ******************************************************************************/
@@ -278,7 +334,11 @@ void BinarySearchTree :: postorder()
 	cout << "\n";
 }
 
-void BinarySearchTree :: postorder(Node *ptr)
+                    /*************************
+                    *        RECURSIVE       *
+                    *************************/
+
+/*void BinarySearchTree :: postorder(Node *ptr)
 {
 	if(ptr)
 	{
@@ -286,7 +346,35 @@ void BinarySearchTree :: postorder(Node *ptr)
 		postorder(ptr->right);
 		cout << " " << ptr->data;
 	}
+}*/
+
+                    /*************************
+                    *        ITERATIVE       *
+                    *************************/
+//Using two stack
+void BinarySearchTree :: postorder(Node *ptr)
+{
+    stack<Node *> st;
+    stack<int> out; // to store postorder data
+    st.push(ptr);
+    while(!st.empty())
+    {
+        ptr = st.top();
+        st.pop();
+        out.push(ptr->data);
+        if(ptr->left)
+            st.push(ptr->left);
+        if(ptr->right)
+            st.push(ptr->right);
+    }
+    while(!out.empty())
+    {
+        cout << " " << out.top();
+        out.pop();
+    }
 }
+//using one stack
+
 
 /******************************************************************************
 *                              LEVELORDER TRAVERSAL                           *

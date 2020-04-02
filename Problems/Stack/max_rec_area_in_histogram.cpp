@@ -17,7 +17,7 @@ int main()
         i = 0;
         while(i <= n)
         {
-            if(st.empty() || i < n && arr[st.top()] <= arr[i])
+            if(st.empty() || (i < n && arr[st.top()] <= arr[i]))
                 st.push(i++);
             else
             {
