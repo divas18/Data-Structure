@@ -1,6 +1,6 @@
-# - - - - - - - - - &ensp;D A T A &ensp; S T R U C T U R E &ensp;- - - - - -
+# - - - - - - - - - - - &ensp;D A T A &ensp;S T R U C T U R E &ensp;- - - - - - - - - - -
 
-## T R E E
+## - - - - - - - - - - - - - - - T R E E - - - - - - - - - - - - - - -
 
 ### C O N T E N T
  - [B I N A R Y &ensp;T R E E](#binary_tree)
@@ -11,13 +11,13 @@
 ### B I N A R Y &ensp;T R E E
 
 - [T R A V E R S A L](#bt_traversal)
-- [C O N S T R U C T I O N - A N D - C O N V E R S I O N](#bt_constructor)
-- [C H E C K I N G - A N D - P R I N T I N G](#bt_checking)
+- [C O N S T R U C T I O N &ensp;A N D &ensp;C O N V E R S I O N](#bt_constructor)
+- [C H E C K I N G &ensp;A N D &ensp;P R I N T I N G](#bt_checking)
 - [S U M M A T I O N](#bt_sum)
-- [L O N G E S T - C O M M O N - A N C E S T O R](#bt_lca)
+- [L O N G E S T &ensp;C O M M O N &ensp;A N C E S T O R](#bt_lca)
 
 <a name="bt_traversal"></a>
-##### T R A V E R S A L
+##### &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;T R A V E R S A L
 
 T I T L E | L I N K
 --- | ---
@@ -28,7 +28,7 @@ Diagonal Traversal of Binary Tree | https://www.geeksforgeeks.org/diagonal-trave
 Boundary Traversal of binary tree | https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
 
 <a name="bt_constructor"></a>
-##### C O N S T R U C T I O N  &ensp;A N D &ensp;C O N V E R S I O N
+##### &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;C O N S T R U C T I O N  &ensp;A N D &ensp;C O N V E R S I O N
 T I T L E | L I N K
 --- | ---
 Construct Tree from given Inorder and Preorder traversals | https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/
