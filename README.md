@@ -1,9 +1,9 @@
-# DATA STRUCTURE
+# D A T A S T R U C T U R E
 
-## Contents
-* [Array](#Array)
-* [Matrix](#Matrix)
-* [Linked List](#Linked_list)
-* [Stack](#Stack)
-* [Queue](#Queue)
-* [Tree](#Tree)
+## C O N T E N T
+* [A R R A Y](#Array)
+* [M A T R I X](#Matrix)
+* [L I S T](#Linked_list)
+* [S T A C K](#Stack)
+* [Q U E U E](#Queue)
+* [T R E E](#Tree)
