@@ -1,3 +1,4 @@
+&ensp; for white space in readme
             - - B I N A R Y  T R E E - -
 
 T R A V E R S A L

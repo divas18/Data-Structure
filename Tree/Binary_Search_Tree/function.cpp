@@ -102,6 +102,7 @@ int BinarySearchTree :: height(Node *ptr)
 /******************************************************************************
 *                              WIDTH OF TREE                                 *
 ******************************************************************************/
+//Maximum number of nodes at a level
 int BinarySearchTree :: width()
 {
     return width(root_);
