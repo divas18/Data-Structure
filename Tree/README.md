@@ -1,11 +1,11 @@
-# &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;D A T A &ensp;&ensp; S T R U C T U R E
+# &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;D A T A &ensp; S T R U C T U R E
 
 ## C O N T E N T
 
 -  [B I N A R Y &ensp; T R E E](#BT)
 -  [B I N A R Y &ensp; S E A R C H &ensp; T R E E](#BST)
 
-<a href="#BT"></a>
+<a name="BT"></a>
 ### B I N A R Y &ensp; T R E E
 -   [T R A V E R S A L](#BT_TRAVERSAL)
 -   [C O N S T R U C T I O N   &   C O N V E R S I O N](#BT_CON)
@@ -13,7 +13,7 @@
 -   [S U M M A T I O N](#BT_SUM)
 -   [L O N G E S T  C O M M O N  A N C E S T O R](#BT_LCA)
 
-<a href="#BT_TRAVERSAL"></a>
+<a name="BT_TRAVERSAL"></a>
 ##### T R A V E R S A L
 T I T L E | L I N K
 ----- | ----
@@ -23,7 +23,7 @@ Morris traversal for Preorder |     https://www.geeksforgeeks.org/morris-travers
 Diagonal Traversal of Binary Tree |     https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/
 Boundary Traversal of binary tree |     https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
 
-<a href="#BT_CON"></a>
+<a name="BT_CON"></a>
 ##### C O N S T R U C T I O N  &ensp; & &ensp; C O N V E R S I O N
 T I T L E | L I N K
 --|--
@@ -42,7 +42,7 @@ Convert a given Binary tree to a tree that holds Logical AND property |     http
 Flip Binary Tree |     https://www.geeksforgeeks.org/flip-binary-tree/
 Minimum swap required to convert binary tree to binary search tree |     https://www.geeksforgeeks.org/minimum-swap-required-convert-binary-tree-binary-search-tree/
 
-<a href="#BT_CP"></a>
+<a name="BT_CP"></a>
 ##### C H E C K I N G  &ensp;&&ensp;  P R I N T I N G
 T I T L E | L I N K
 --|--
@@ -71,7 +71,7 @@ Print Left View of a Binary Tree |     https://www.geeksforgeeks.org/print-left-
 Print Right View of a Binary Tree |     https://www.geeksforgeeks.org/print-right-view-binary-tree-2/
 Print Nodes in Top View of Binary Tree |     https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/
 
-<a href="#BT_SUM"></a>
+<a name="BT_SUM"></a>
 #### S U M M A T I O N
 
 T I T L E | L I N K
@@ -93,7 +93,7 @@ Vertical Sum in a given Binary Tree |     https://www.geeksforgeeks.org/vertical
 Find root of the tree where children id sum for every node is given |     https://www.geeksforgeeks.org/find-root-tree-children-id-sum-every-node-given/
 Replace each node in binary tree with the sum of its inorder predecessor and successor |     https://www.geeksforgeeks.org/replace-node-binary-tree-sum-inorder-predecessor-successor/
 
-<a href="#BT_LCA"></a>
+<a name="BT_LCA"></a>
 #### L O N G E S T &ensp;C O M M O N &ensp;A N C E S T O R
 
 T I T L E | L I N K
