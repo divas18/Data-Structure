@@ -27,11 +27,12 @@ private:
 	void 	preorder(Node *ptr);
 	void 	postorder(Node *ptr);
 	void 	insert(Node *ptr, int key);
+	Node * 	Delete(Node *ptr, int key);
 	int 	height(Node *ptr);
 	int 	width(Node *ptr);
 	Node *	minNode(Node *ptr);
 	Node *	maxNode(Node *ptr);
-	Node * search(Node *ptr, int key);
+	Node * 	search(Node *ptr, int key);
 	void 	successor(Node *ptr, Node *&succ, int key);
 	void 	predecessor(Node *ptr, Node *&pre, int key);
 
@@ -41,6 +42,7 @@ public:
 		root_ = NULL;
 	}
 	void 	insert(int key);
+	void 	Delete(int key);
 	void 	inorder();
 	void 	preorder();
 	void 	postorder();
@@ -50,8 +52,8 @@ public:
 	Node *	minNode();
 	Node *	maxNode();
 	Node * search(int key);
-	int 	successor(int key);
-	int 	predecessor(int key);
+	Node * 	successor(int key);
+	Node * 	predecessor(int key);
 };
 
 #endif

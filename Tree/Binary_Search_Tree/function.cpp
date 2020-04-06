@@ -78,7 +78,48 @@ Node * BinarySearchTree :: search(Node *ptr, int key)
 /******************************************************************************
 *                              DELETION                                       *
 ******************************************************************************/
-
+void BinarySearchTree :: Delete(int key)
+{
+    if(!root_)
+    {
+        cout << "Tree is empty\n";
+        return;
+    }
+    root_ = Delete(root_, key);
+    cout << "JOB DONE\n";
+}
+Node * BinarySearchTree :: Delete(Node *ptr, int key)
+{
+    if(!ptr) //incase key not found in tree
+        return NULL;
+    if(key < ptr->data)
+        ptr->left = Delete(ptr->left, key); //key lie in left subtree
+    else if(key > ptr->data)
+        ptr->right = Delete(ptr->right, key); //key lie in right subtree
+    else // key found
+    {
+        if(ptr->left && ptr->right) //exactly two child case
+        {
+            Node *successor = ptr->right;
+            while(successor->left)
+                successor = successor->left;
+            ptr->data = successor->data;
+            ptr->right = Delete(ptr->right, ptr->data);
+        }
+        else
+        {
+            Node *temp = ptr;
+            if(ptr->left)
+                ptr = ptr->left; // delete node with left child
+            else if(ptr->right)
+                ptr = ptr->right; // delete node with right child
+            else
+                ptr = NULL; // delete node with no child
+            delete(temp);
+        }
+    }
+    return ptr;
+}
 
 /******************************************************************************
 *                              HEIGHT OF TREE                                 *
@@ -92,8 +133,8 @@ int BinarySearchTree :: height(Node *ptr)
 {
     if(ptr)
     {
-        int height_left  = height(ptr->left);
-        int height_right = height(ptr->right);
+        int height_left  = height(ptr->left); //height of left subtree
+        int height_right = height(ptr->right); // height of right subtree
         return 1 + max(height_left, height_right);
     }
     return 0;
@@ -410,11 +451,11 @@ void BinarySearchTree :: levelorder()
 *                              INORDER SUCCESSOR                              *
 ******************************************************************************/
 
-int BinarySearchTree :: successor(int key)
+Node * BinarySearchTree :: successor(int key)
 {
     Node * successor_ptr = NULL;
     successor(root_, successor_ptr, key);
-    return successor_ptr ? successor_ptr->data : -1;
+    return successor_ptr;
 }
 
 void BinarySearchTree :: successor(Node *ptr, Node *&succ, int key)
@@ -441,11 +482,11 @@ void BinarySearchTree :: successor(Node *ptr, Node *&succ, int key)
 *                              INORDER PREDECESSOR                            *
 ******************************************************************************/
 
-int BinarySearchTree :: predecessor(int key)
+Node * BinarySearchTree :: predecessor(int key)
 {
     Node * predecessor_ptr = NULL;
     predecessor(root_, predecessor_ptr, key);
-    return predecessor_ptr ? predecessor_ptr->data : -1;
+    return predecessor_ptr;
 }
 
 void BinarySearchTree :: predecessor(Node *ptr, Node *&pre, int key)
