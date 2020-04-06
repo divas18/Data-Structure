@@ -105,3 +105,32 @@ Maximum difference between node and its ancestor in Binary Tree |     https://ww
 Print the path common to the two paths from the root to the two given nodes |     https://www.geeksforgeeks.org/print-path-common-two-paths-root-two-given-nodes/
 Query for ancestor-descendant relationship in a tree |     https://www.geeksforgeeks.org/query-ancestor-descendant-relationship-tree/
 Kth ancestor of a node in binary tree |     https://www.geeksforgeeks.org/kth-ancestor-node-binary-tree/?ref=lbp     https://www.geeksforgeeks.org/kth-ancestor-node-binary-tree-set-2/
+
+<a name="BST"></a>
+### B I N A R Y &ensp; S E A R C H &ensp; T R E E
+
+-   [C O N S T R U C T I O N   &   C O N V E R S I O N](#BST_CON)
+-   [C H E C K I N G  &  S E A R C H I N G](#BST_CS)
+-   [M I S C E L L A N E O U S](#BST_MISC)
+
+#### C O N S T R U C T I O N   &   C O N V E R S I O N
+
+T I T L E | L I N K
+-- | --
+Construct BST from given preorder traversal |https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/ https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversal-set-2/
+Construct BST from its given level order traversal | https://www.geeksforgeeks.org/construct-bst-given-level-order-traversal/
+Reverse a path in BST | https://www.geeksforgeeks.org/reverse-tree-path/ https://www.geeksforgeeks.org/reverse-path-bst-using-queue/
+Sorted Linked List to Balanced BST | https://www.geeksforgeeks.org/sorted-linked-list-to-balanced-bst/
+Sorted Array to Balanced BST | https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/
+Construct all possible BSTs for keys 1 to N |https://www.geeksforgeeks.org/construct-all-possible-bsts-for-keys-1-to-n/
+Convert BST into a Min-Heap | https://www.geeksforgeeks.org/in-place-convert-bst-into-a-min-heap/  https://www.geeksforgeeks.org/convert-bst-min-heap/
+Merge two BSTs | https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/ https://www.geeksforgeeks.org/merge-two-bsts-with-limited-extra-space/
+
+
+#### C H E C K I N G  &  S E A R C H I N G
+T I T L E | L I N K
+-- | --
+
+#### M I S C E L L A N E O U S
+T I T L E | L I N K
+-- | --
