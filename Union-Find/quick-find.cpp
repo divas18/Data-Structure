@@ -5,6 +5,9 @@
  * @Github: ADITYA-CS
  */
 
+// N A I V E - I M P L E M E N T A T I O N
+// Array representation
+
 #include <iostream>
 #include <algorithm>
 using namespace std;
